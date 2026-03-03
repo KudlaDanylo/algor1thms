@@ -11,7 +11,7 @@ def numbers_stats(*args, **kwarg):
       numbers.append(i)
 
    count = len(numbers)
-   s = 0
+   s = 1
    for i in args:
       if i:
          s = s + i
